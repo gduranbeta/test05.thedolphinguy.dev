@@ -891,3 +891,11 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
