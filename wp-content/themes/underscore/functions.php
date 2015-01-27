@@ -113,6 +113,14 @@ function underscore_scripts() {
 add_action( 'wp_enqueue_scripts', 'underscore_scripts' );
 
 /**
+ * stabFunction: stab function
+ */
+
+function stabFunction() {
+	return false;
+}
+
+/**
  * Implement the Custom Header feature.
  */
 //require get_template_directory() . '/inc/custom-header.php';
